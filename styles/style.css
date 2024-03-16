@@ -67,7 +67,9 @@ body {
 
 .apresentacao__conteudo__testo{
     font-size: 1.5rem;
-    font-family: var(--fonte-secundaria)
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+    
 }
 .apresentacao__links{
     display: flex;
@@ -75,6 +77,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 32px;
+    font-family: var(--fonte-primaria);
+    font-size: 1.50rem;
 }
 .apresentacao__links__subtitulos{
     font-size: var(--fonte-secundaria)
@@ -103,6 +107,17 @@ body {
     width: 50%;
 }
 
+.fa-user-graduate,.fa-language, .fa-book-open {
+    color: var(--cor-terciaria);
+    font-size: 2em;
+    margin: 1%;
+}
+
+.formacao__academica{
+    display: flex;
+    gap: 40px;
+}
+
 .rodape{
 padding: 10px;
 text-align: center;
@@ -128,8 +143,7 @@ font-size: 1.5rem;
 
     .apresentacao__conteudo{
         width: auto;
-    }
-    
+    }  
 }
 
 
