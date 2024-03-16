@@ -80,11 +80,12 @@ body {
     font-family: var(--fonte-primaria);
     font-size: 1.50rem;
 }
-.apresentacao__links__subtitulos{
-    font-size: var(--fonte-secundaria)
-    
+
+.apresentacao__links__subtitulos {
+    font-size: var(--fonte-secundaria) 
 }
-.apresentacao__links__navegacao{
+
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -98,27 +99,77 @@ body {
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria)
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__link:hover {
     background-color: var(--cor-hover);
     cursor: pointer;
 }
 
-.img__perfil{
+.img__perfil {
     width: 50%;
 }
 
-.fa-user-graduate,.fa-language, .fa-book-open {
-    color: var(--cor-terciaria);
-    font-size: 2em;
-    margin: 1%;
+.img__curriculum {
+    width: 20%;
+    border-radius: 10%;
 }
 
-.formacao__academica{
+.resume {
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    padding: 5% 13%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
 }
 
-.rodape{
+.aprecentacao__skills {
+    font-size: 1.5rem; 
+    font-family: var(--fonte-primaria);
+    margin-bottom: 10px;
+}
+
+.category-divider {
+    margin-top: 10px;
+    border: 1px dotted var(--cor-terciaria);
+
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.skill-category {
+    width: calc(33.33% - 50px); 
+    margin-bottom: 15px;
+    margin-right: 20px; 
+    box-sizing: border-box; 
+}
+
+.icon-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-title-container i {
+    margin-right: 10px; 
+}
+
+.education-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+}
+
+.education-info p {
+    border-left: 2px dotted var(--cor-terciaria); 
+    padding-left: 10px; 
+}
+
+.rodape {
 padding: 10px;
 text-align: center;
 color:var(--cor-primaria);
@@ -144,6 +195,13 @@ font-size: 1.5rem;
     .apresentacao__conteudo{
         width: auto;
     }  
+
+    .skill-category {
+        width: auto;
+    }
+    
 }
+
+
 
 
