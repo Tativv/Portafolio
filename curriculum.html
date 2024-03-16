@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" crossorigin="anonymous">
 </head>
+
 <body>
+
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
@@ -15,21 +18,90 @@
             <a class="cabecalho__menu__link" href="curriculum.html">Curriculum</a>
         </nav>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Tatiana Varona Villavicencio</h1>
-            <h2>Bacharel Técnica em Informática</h2>
-            <h4><i class="fa-solid fa-user-graduate"></i>FORMAÇÃO ACADÊMICA</h4>
-            </section>
-            <section class="apresentacao__conteudo">
-                <h4><i class="fa-solid fa-language"></i>IDIOMAS</h4>
-            </section>
-            <section class="apresentacao__conteudo">
-                <h4><i class="fa-solid fa-book-open"></i>CURSOS Y TALLERES</h4>
-            </section>
-    </main>
+
+    <div class="resume">
+        <div class="profile">
+            <div class="profile-image">
+                <img class="img__curriculum" src="assets/img/perfil.png" alt="cover.JPG" loading="">
+            </div>
+            <div class="profile-info">
+                <h1 class="apresentacao__conteudo__titulo">Tatiana Varona Villavicencio</h1>
+                <h2 class="titulo-destaque">Bacharel Técnica em Informática</h2>
+                <p>São Paulo, SP, Brasil</p>
+            </div>
+        </div>
+
+        <div class="icon-title-container">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <h2 class="apresentacao__skills">Skills</h2>
+        </div>
+        <div class="skills">
+            <div class="skill-category">
+                <hr class="category-divider">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <hr class="category-divider">
+                <h3>Web Techniques</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <hr class="category-divider">
+                <h3>Tools/Development</h3>
+                <ul>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="apresentacao__conteudo">
+            <div class="icon-title-container">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h2>FORMAÇÃO ACADÊMICA</h2>
+        </div>
+            <div class="education-info">
+                <p><b>Universidade das CIÊNCIAS INFORMÁTICA</b>, LH, Cuba <br>INGENIERIA EM CIÊNCIAS DA COMPUTAÇÃO <br>Set. 2009 - Jul. 2011</p>
+                <p><b>IPI SIMÓN BOLÍVAR</b>, LT, Cuba <br>BACHAREL TÉCNICO EM INFORMÁTICA <br>Set. 2006 - Jul. 2009</p>
+            </div>
+        </div>
+
+        <div class="apresentacao__conteudo">
+            <div class="icon-title-container">
+                <i class="fa-solid fa-language"></i>
+                <h2>IDIOMAS</h2>
+            </div>
+            <div class="education-info">
+                <p><b>PORTUGUÊS</b> - INTERMEDIÁRIO</p>
+                <p><b>ESPANHOL</b> - NATIVO</p>
+                <p><b>INGLÊS</b> - INTERMEDIÁRIO</p>
+            </div>
+        </div>
+
+        <div class="apresentacao__conteudo">
+            <div class="icon-title-container">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h2>CURSOS Y TALLERES</h2>
+        </div>
+            <div class="education-info">
+                <p><b>Escola Campinho Digital</b>, Brasil - SOLUÇÕES NA NUVEM (Otb. 2023 - Dec. 2023)</p>
+                <p><b>National Taiwan University</b>, Brasil - TREINAMENTO PARA FORMAÇÃO DE ESPECIALISTAS SALESFORCE (Sept. 2023 - Jun. 2023)</p>
+                <p><b>Escola de Idiomas</b>, Cuba - LÍNGUA INGLESA (Sept. 2017 - Jul. 2019)</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Tatiana</p>
+    </footer>
+
 </body>
-<footer class="rodape">
-    <p>Desenvolvido por Tatiana</p>
-</footer>
+
 </html>
