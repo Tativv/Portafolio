@@ -110,8 +110,15 @@ body {
 
 .img__curriculum {
     width: 20%;
-    border-radius: 10%;
+    border-radius: 10%; 
+    margin: 40px
 }
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
 
 .resume {
     display: flex;
@@ -201,7 +208,6 @@ font-size: 1.5rem;
     }
     
 }
-
 
 
 
